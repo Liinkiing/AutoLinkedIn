@@ -9,7 +9,7 @@ so for curious like me, I could not see how was made his extension (I mean I eas
 the folder associated to the extension ID, but nah).
 
 ## Preview
-![](http://i.imgur.com/scSHXL5.gif)
+![](/screens/preview.gif)
 
 ## Secret code
 If you are a bit curious and tend to like exploration, you may have noticed that if you say "Non" 
