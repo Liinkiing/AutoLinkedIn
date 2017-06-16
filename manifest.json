@@ -1,0 +1,40 @@
+{
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Linkedin pour les flemmards"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "jquery-3.2.1.min.js",
+        "index.js"
+      ],
+      "css": [
+        "style.css"
+      ],
+      "matches": [
+        "https://www.linkedin.com/mynetwork/*"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "author": "Omar Jbara <omar.jbara2@gmail.com",
+  "default_locale": "fr",
+  "description": "Permet l'ajout de de contacts sur LinkedIn de manière automaztique",
+  "icons": {
+    "512": "icon.png"
+  },
+  "manifest_version": 2,
+  "name": "Linkedin auto",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "storage"
+  ],
+  "version": "1.0"
+}
